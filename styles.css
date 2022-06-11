@@ -1,0 +1,23 @@
+.grid-container{
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header{
+    grid-column: 2 / 3;
+
+    border: solid;
+}
+
+.sidebar{
+    grid-column: 1 / 2;
+
+    border: solid;
+}
+
+.main-content{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    border: solid;
+}
